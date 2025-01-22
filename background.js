@@ -1,6 +1,6 @@
 const redirects = {
-  "x.com": "https://bluesky.com",
-  "www.x.com": "https://bluesky.com",
+  "x.com": "https://bsky.app",
+  "www.x.com": "https://bsky.app",
   "instagram.com": "https://pixelfed.org",
   "www.instagram.com": "https://pixelfed.org",
   "tiktok.com": "https://pixelfed.org",
