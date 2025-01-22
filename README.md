@@ -4,19 +4,19 @@ A Firefox extension that blocks social media websites subject to enshittificatio
 ![icon](icon.png)
 
 # Current Redirects
-## Full
+## Full (redirects to an unshittified version of the exact link you've selected)
 - Youtube -> Invidious (invidious.nerdvpn.de)
 - Twitter -> XCancel (toggle)
 - Reddit -> RedLib (redlib.r4fo.com)
 
-## Basic
+## Basic (only redirects to an unshittified equivalent of the website in question)
 - Twitter -> Bluesky (toggle)
 
 - Facebook -> Mastodon
 
 - Instagram + TikTok -> PixelFed
 
-## Blocked
+## Blocked (explains itself)
 - Meta
 
 # Why?
