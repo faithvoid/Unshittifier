@@ -4,16 +4,16 @@ A Firefox extension that blocks social media websites subject to enshittificatio
 ![icon](icon.png)
 
 # Current Redirects
+## Full
+- Youtube -> Invidious
+- Twitter -> XCancel (toggle)
+
 ## Basic
 - Twitter -> Bluesky
 
 - Facebook -> Mastodon
 
 - Instagram + TikTok -> PixelFed
-
-## Full
-- Youtube -> Invidious
-- Twitter -> XCancel (toggle)
 
 ## Blocked
 - Meta
