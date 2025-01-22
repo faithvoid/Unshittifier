@@ -3,8 +3,12 @@ Unshittifier - A Firefox extension that blocks social media websites subject to 
 
 # Current Redirects
 Twitter -> Bluesky
+
 Facebook -> Mastodon
+
 Instagram + TikTok -> PixelFed
+
+Meta -> (Blocked)
 
 # Why?
 I'm tired of these user-hostile social media platforms that are unusable being commonplace. All major social media platforms are essentially just bots and ragebait, and life's too short to be subjected to that sort of nonsense. Social media should be about connecting with people first and foremost, not generating capital by making your websites functionally worse to extract every last dollar.
