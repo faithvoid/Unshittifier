@@ -1,21 +1,22 @@
-const blockedPageURL = browser.runtime.getURL("blocked.html");
+const redirects = {
+  "x.com": "https://bluesky.com",
+  "www.x.com": "https://bluesky.com",
+  "instagram.com": "https://pixelfed.org",
+  "www.instagram.com": "https://pixelfed.org",
+  "tiktok.com": "https://pixelfed.org",
+  "www.tiktok.com": "https://pixelfed.org",
+  "facebook.com": "https://mastodon.social",
+  "www.facebook.com": "https://mastodon.social"
+};
 
 browser.webRequest.onBeforeRequest.addListener(
   function(details) {
-    return {redirectUrl: blockedPageURL};
+    const url = new URL(details.url);
+    if (redirects[url.hostname]) {
+      return { redirectUrl: redirects[url.hostname] };
+    }
+    return {};
   },
-  {
-    urls: [
-      "*://x.com/*",
-      "*://instagram.com/*",
-      "*://www.instagram.com/*",
-      "*://meta.com/*",
-      "*://www.meta.com/*",
-      "*://facebook.com/*",
-      "*://tiktok.com/*",
-      "*://www.tiktok.com/*",
-      "*://www.facebook.com/*"
-    ]
-  },
+  { urls: ["<all_urls>"] },
   ["blocking"]
 );
