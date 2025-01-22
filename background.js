@@ -1,8 +1,8 @@
 const redirects = {
   "threads.net": "https://bsky.app",
   "www.threads.net": "https://bsky.app",
-  "x.com": "https://bsky.app",
-  "www.x.com": "https://bsky.app",
+  "x.com": "https://xcancel.com",
+  "www.x.com": "https://xcancel.com",
   "instagram.com": "https://pixelfed.org",
   "www.instagram.com": "https://pixelfed.org",
   "tiktok.com": "https://pixelfed.org",
@@ -17,7 +17,9 @@ const redirects = {
 
 const pathRetainingRedirects = [
   "youtube.com",
-  "www.youtube.com"
+  "www.youtube.com",
+  "x.com",
+  "www.x.com"
 ];
 
 const blockedPages = {
