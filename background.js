@@ -9,11 +9,18 @@ const redirects = {
   "www.facebook.com": "https://mastodon.social"
 };
 
+const blockedPages = {
+  "meta.com": "/blocked.html",
+  "www.meta.com": "/blocked.html"
+};
+
 browser.webRequest.onBeforeRequest.addListener(
   function(details) {
     const url = new URL(details.url);
     if (redirects[url.hostname]) {
       return { redirectUrl: redirects[url.hostname] };
+    } else if (blockedPages[url.hostname]) {
+      return { redirectUrl: browser.runtime.getURL(blockedPages[url.hostname]) };
     }
     return {};
   },
