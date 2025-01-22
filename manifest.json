@@ -10,5 +10,8 @@
   ],
   "background": {
     "scripts": ["background.js"]
-  }
+  },
+  "web_accessible_resources": [
+    "blocked.html"
+  ]
 }
