@@ -20,6 +20,7 @@ I'm tired of these user-hostile social media platforms that are unusable being c
 # TODO:
 - Add more redirects
 - Add a per-site toggle
+- Add XCancel redirect option for X for those willing to put up with X-induced psychic damage.
 - Redirect queries / URLs to their unshittified equivalents (ie; YouTube bookmarks will automatically redirect to yewtu.be)
 - Allow users to set manual redirects for each website
 - Add cute random animal photos to the blocked page to lighten the user's mood.
