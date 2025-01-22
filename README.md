@@ -4,15 +4,19 @@ A Firefox extension that blocks social media websites subject to enshittificatio
 ![icon](icon.png)
 
 # Current Redirects
-Twitter -> Bluesky
+## Basic
+- Twitter -> Bluesky
 
-Facebook -> Mastodon
+- Facebook -> Mastodon
 
-Instagram + TikTok -> PixelFed
+- Instagram + TikTok -> PixelFed
 
-YouTube -> Invidious (redirects videos automatically to Indivious instance)
+## Full
+- Youtube -> Invidious
+- Twitter -> XCancel (toggle)
 
-Meta -> (Blocked)
+## Blocked
+- Meta
 
 # Why?
 I'm tired of these user-hostile social media platforms that are unusable being commonplace. All major social media platforms are essentially just bots and ragebait, and life's too short to be subjected to that sort of nonsense. Social media should be about connecting with people first and foremost, not generating capital by making your websites functionally worse to extract every last dollar.
