@@ -1,5 +1,5 @@
 # unshittifier
-A Firefox extension that blocks social media websites subject to enshittification (ie; Meta, X, TikTok) and redirects the user to unshittified equivalents. Don't put up with user-hostile websites or give them your ad revenue!
+A Firefox extension that blocks social media websites subject to enshittification (ie; Meta, X, TikTok) and redirects the user to unshittified equivalents. Don't put up with user-hostile websites or give them your ad revenue! Together we can make the internet suck less. 
 
 This extension uses 3 redirect modes, "Full", which redirects any given enshittified link to a full unshittified equivalent (ie; YouTube to Indivious), "Basic", which redirects you to an unshittified clone of a website (ie; Twitter to Bluesky), and "Blocked", which fully blocks a page and displays a redirect message. 
 
