@@ -7,6 +7,7 @@ A Firefox extension that blocks social media websites subject to enshittificatio
 ## Full
 - Youtube -> Invidious
 - Twitter -> XCancel (toggle)
+- Reddit -> RedLib
 
 ## Basic
 - Twitter -> Bluesky (toggle)
