@@ -12,14 +12,18 @@ const redirects = {
   "youtube.com": "https://invidious.nerdvpn.de",
   "www.youtube.com": "https://invidious.nerdvpn.de",
   "fandom.com": "https://antifandom.com",
-  "www.fandom.com": "https://antifandom.com"
+  "www.fandom.com": "https://antifandom.com",
+  "reddit.com": "https://redlib.r4fo.com",
+  "www.reddit.com": "https://redlib.r4fo.com"
 };
 
 const pathRetainingRedirects = [
   "youtube.com",
   "www.youtube.com",
   "x.com",
-  "www.x.com"
+  "www.x.com",
+  "reddit.com",
+  "www.reddit.com"
 ];
 
 const blockedPages = {
