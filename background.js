@@ -8,7 +8,9 @@ const redirects = {
   "tiktok.com": "https://pixelfed.org",
   "www.tiktok.com": "https://pixelfed.org",
   "facebook.com": "https://mastodon.social",
-  "www.facebook.com": "https://mastodon.social"
+  "www.facebook.com": "https://mastodon.social",
+  "youtube.com": "https://yewtu.be",
+  "www.youtube.com": "https://yewtu.be",
 };
 
 const blockedPages = {
