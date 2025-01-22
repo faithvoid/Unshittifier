@@ -10,7 +10,7 @@ Facebook -> Mastodon
 
 Instagram + TikTok -> PixelFed
 
-YouTube -> yewtu.be
+YouTube -> Invidious (redirects videos automatically to Indivious instance)
 
 Meta -> (Blocked)
 
