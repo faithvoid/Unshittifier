@@ -27,8 +27,8 @@ const pathRetainingRedirects = [
 ];
 
 const blockedPages = {
-  "example.com": "/blocked.html",
-  "www.example.com": "/blocked.html"
+  "meta.com": "/blocked.html",
+  "www.meta.com": "/blocked.html"
 };
 
 browser.webRequest.onBeforeRequest.addListener(
