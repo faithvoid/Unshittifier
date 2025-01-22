@@ -8,6 +8,8 @@ Facebook -> Mastodon
 
 Instagram + TikTok -> PixelFed
 
+YouTube -> yewtu.be
+
 Meta -> (Blocked)
 
 # Why?
