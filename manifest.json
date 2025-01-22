@@ -1,26 +1,14 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 2,
   "name": "Unshittifier",
   "version": "1.0",
-  "description": "A Firefox extension that blocks social media websites subject to enshittification.",
-  "permissions": ["webRequest", "webRequestBlocking"],
-  "host_permissions": [
-    "*://x.com/*",
-    "*://instagram.com/*",
-    "*://www.instagram.com/*",
-    "*://meta.com/*",
-    "*://www.meta.com/*",
-    "*://facebook.com/*",
-    "*://www.facebook.com/*",
-    "*://www.tiktok.com/*"
+  "description": "Firefox extension that blocks social media websites subject to enshittification (ie; Meta, X, TikTok) and redirects the user to un-enshittified equivalents.",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
   ],
   "background": {
-    "service_worker": "background.js"
-  },
-  "web_accessible_resources": [
-    {
-      "resources": ["blocked.html"],
-      "matches": ["<all_urls>"]
-    }
-  ]
+    "scripts": ["background.js"]
+  }
 }
