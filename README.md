@@ -1,6 +1,8 @@
 # unshittifier
 A Firefox extension that blocks social media websites subject to enshittification (ie; Meta, X, TikTok) and redirects the user to unshittified equivalents. Don't put up with user-hostile websites or give them your ad revenue!
 
+This extension uses 3 redirect modes, "Full", which redirects any given enshittified link to a full unshittified equivalent (ie; YouTube to Indivious), "Basic", which redirects you to an unshittified equivalent of the website (ie; Twitter to Bluesky), and "Blocked", which fully blocks a page and displays a redirect message. 
+
 ![icon](icon.png)
 
 # Current Redirects
@@ -24,9 +26,8 @@ I'm tired of these user-hostile social media platforms that are unusable being c
 
 # TODO:
 - Add more redirects
+- Add site-specific blocked pages that list all equivalents (ie; Twitter would lead to a page that shows Mastodon, Bluesky, etc.)
 - Add a per-site toggle
 - Use European servers as opposed to American servers as enhanced user privacy measure
-- Add XCancel redirect option for X for those willing to put up with X-induced psychic damage
-- Redirect queries / URLs to their unshittified equivalents (ie; YouTube bookmarks will automatically redirect to yewtu.be)
 - Allow users to set manual redirects for each website
 - Add cute random animal photos to the blocked page to lighten the user's mood.
