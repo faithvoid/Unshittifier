@@ -1,4 +1,6 @@
 const redirects = {
+  "threads.net": "https://bsky.app",
+  "www.threads.net": "https://bsky.app",
   "x.com": "https://bsky.app",
   "www.x.com": "https://bsky.app",
   "instagram.com": "https://pixelfed.org",
