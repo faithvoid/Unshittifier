@@ -9,7 +9,7 @@ A Firefox extension that blocks social media websites subject to enshittificatio
 - Twitter -> XCancel (toggle)
 
 ## Basic
-- Twitter -> Bluesky
+- Twitter -> Bluesky (toggle)
 
 - Facebook -> Mastodon
 
