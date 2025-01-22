@@ -11,6 +11,8 @@ const redirects = {
   "www.facebook.com": "https://mastodon.social",
   "youtube.com": "https://yewtu.be",
   "www.youtube.com": "https://yewtu.be",
+  "fandom.com": "https://antifandom.com",
+  "www.fandom.com": "https://antifandom.com"
 };
 
 const blockedPages = {
