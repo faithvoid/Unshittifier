@@ -31,3 +31,4 @@ I'm tired of these user-hostile social media platforms that are unusable being c
 - Use European servers as opposed to American servers as enhanced user privacy measure
 - Allow users to set manual redirects for each website
 - Add cute random animal photos to the blocked page to lighten the user's mood.
+- Add settings page
