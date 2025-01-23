@@ -6,12 +6,12 @@ This extension uses 3 redirect modes, "Full", which redirects any given enshitti
 ![icon](icon.png)
 
 # Current Redirects
-## Full ("show me the full contents of this link with a different front-end")
+## Full (shows the full contents of the link with an unshittified front-end)
 - Youtube -> Invidious (invidious.nerdvpn.de)
 - Twitter -> XCancel (toggle)
 - Reddit -> RedLib (redlib.r4fo.com)
 
-## Basic ("don't show me anything to do with this site, redirect me from it!")
+## Basic (redirects you entirely away from a website and towards it's best unshittified equivalent, ie; replacing Twitter with Bluesky!)
 - Twitter -> Bluesky (toggle)
 - Facebook -> Mastodon
 - Instagram + TikTok -> PixelFed
