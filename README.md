@@ -30,3 +30,7 @@ I'm tired of these user-hostile social media platforms that are unusable being c
 - Allow users to set manual redirects for each website
 - Add cute random animal photos to the blocked page to lighten the user's mood.
 - Add settings page
+
+# Sites to add:
+- AntiFandom (Fandom replacement)
+- Any sort of FOSS Instagram front-end replacement (like Bibliogram, r.i.p.)
